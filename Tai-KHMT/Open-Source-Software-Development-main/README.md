@@ -68,7 +68,7 @@ Hệ thống quản lý Homestay được phát triển bằng Python và sử d
 
 #### 3.2.1. Tải project
 ```bash
-
+https://github.com/Dragonkin1402/Nhom2-QLHomestay.git
 ```
 
 #### 3.2.2. Cài đặt XAMPP (Windows)
