@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-    Open Source Software Development
+    HOTEL MANAGEMENT SYSTEM
 </h2>
 <div align="center">
     <p align="center">
@@ -20,49 +20,116 @@
 </div>
 
 ## 📖 1. Giới thiệu
-Platform ERP được áp dụng vào học phần Thực tập doanh nghiệp dựa trên mã nguồn mở Odoo.  
-Đặc biệt, sinh viên triển khai chủ đề **Quản lý Homestay** (Homestay Management) nhằm xây dựng hệ thống quản lý đặt phòng, khách hàng, thanh toán và dịch vụ hỗ trợ vận hành Homestay.
+Hệ thống quản lý Homestay được phát triển bằng Python và sử dụng MySQL làm cơ sở dữ liệu, nhằm hỗ trợ chủ Homestay trong việc quản lý đặt phòng, khách hàng, thanh toán và các dịch vụ đi kèm. Giải pháp này giúp tự động hóa quy trình, giảm thiểu sai sót so với quản lý thủ công, đồng thời cung cấp báo cáo doanh thu – chi phí nhanh chóng và chính xác, góp phần nâng cao hiệu quả vận hành và trải nghiệm khách hàng.
+
+### Tính năng chính:
+- 👥 **Quản lý khách hàng**: Thêm, sửa, xóa thông tin khách hàng
+- 🚪 **Quản lý phòng: Theo dõi trạng thái phòng (trống, đã thuê, bảo trì)
+-    **Quản lý thanh toán: Theo dõi trạng thái thanh toán phòng 
+- 📅 **Quản lý đặt phòng**: Tạo, cập nhật và theo dõi các đơn đặt phòng
+- 📊 **Dashboard**: Thống kê tổng quan về tình hình hoạt động
+- 🔍 **Tìm kiếm**: Tìm kiếm nhanh trong tất cả các module 
+- 🌙 **Dark Mode**: Chế độ giao diện tối/sáng
 
 ## 🔧 2. Các công nghệ được sử dụng
 <div align="center">
 
 ### Hệ điều hành
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/en-us/windows/)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
-[![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://www.apple.com/macos)
-
-### Công cụ phát triển
-[![Visual Studio Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
-[![MySQL Workbench](https://img.shields.io/badge/MySQL%20Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://dev.mysql.com/downloads/workbench/)
-[![XAMPP](https://img.shields.io/badge/XAMPP-F37623?style=for-the-badge&logo=xampp&logoColor=white)](https://www.apachefriends.org/)
+[![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://www.apple.com/macos/)
 
 ### Công nghệ chính
-[![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white)](https://www.odoo.com/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![XML](https://img.shields.io/badge/XML-FF6600?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.w3.org/XML/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap_5.3.3-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
-### Cơ sở dữ liệu
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+### Web Server & Database
+[![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)](https://httpd.apache.org/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)](https://www.apachefriends.org/)
+[![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://dev.mysql.com/downloads/workbench/)
+
 </div>
 
-## 🚀 3. Các project đã thực hiện dựa trên Platform
+## ⚙️ 3. Cài đặt và Sử dụng
 
+### 3.1. Yêu cầu hệ thống
 
-## ⚙️ 4. Cài đặt
+- **Web Server**: Apache/Nginx
+- **PHP**: Version 7.4 trở lên
+- **Database**: MySQL 5.7+ hoặc MariaDB
+- **XAMPP** (khuyến nghị cho Windows)
+- **MySQL Workbench** (để quản lý database)
 
-### 4.1. Cài đặt công cụ, môi trường và các thư viện cần thiết
+### 3.2. Cài đặt
 
-#### 4.1.1. Tải project.
+#### 3.2.1. Tải project
+```bash
 
-### 4.4. Chạy hệ thống và cài đặt các ứng dụng cần thiết
-Lệnh chạy
 ```
-python3 odoo-bin.py -c odoo.conf -u all
+
+#### 3.2.2. Cài đặt XAMPP (Windows)
+1. Tải và cài đặt [XAMPP](https://www.apachefriends.org/download.html)
+2. Khởi động Apache và MySQL từ XAMPP Control Panel
+3. Sao chép project vào thư mục `C:\xampp\htdocs\KHMT1701\`
+
+#### 3.2.3. Cài đặt và cấu hình MySQL Workbench
+1. Tải và cài đặt [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+2. Khởi động MySQL Workbench
+3. Tạo kết nối mới:
+   - Connection Name: `Tai`
+   - Hostname: `127.0.0.1` hoặc `localhost`
+   - Port: `3306`
+   - Username: `root`
+   - Password: (để trống nếu chưa đặt mật khẩu)
+
+#### 3.2.4. Cấu hình kết nối database
+Chỉnh sửa file `functions/db_connection.php`:
+```php
+$servername = "localhost";
+$username = "root"; 
+$password = ""; // Hoặc mật khẩu MySQL của bạn
+$dbname = "homestay_db";
 ```
-Người sử dụng truy cập theo đường dẫn _http://localhost:8069/_ để đăng nhập vào hệ thống.
 
-## 📝 5. License
+### 3.3. Chạy ứng dụng
 
-© 2024 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
+1. Đảm bảo Apache và MySQL đang chạy trong XAMPP
+2. Truy cập: `http://localhost/Tai-KHMT/`
+3. Đăng nhập với tài khoản:
+   - **Username**: admin
+   - **Password**: 123456
 
----
+### 3.4. Cấu trúc project
+
+```
+BTL/
+├── index.php               
+├── functions/             
+│   ├── auth.php
+│   ├── db_connection.php
+│   ├── room_functions.php
+│   ├── customer_functions.php
+│   ├── payment_functions.php
+│   └── booking_functions.php
+├── handle/                  
+│   ├── login_process.php
+│   ├── logout_process.php
+│   └── room_process.php
+│   └── customer_process.php
+│   └── payment_process.php
+│   └── booking_process.php
+├── views/                  
+│   ├── dashboard.php        
+│   ├── menu.php          
+│   ├── customer.php          
+│   ├── room.php           
+│   ├── payment.php       
+│   ├── booking.php        
+│   
+├── css/                   
+└── images/                
+```
