@@ -18,73 +18,42 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
+
 ## 📖 1. Giới thiệu
-Platform ERP được áp dụng vào học phần Thực tập doanh nghiệp dựa trên mã nguồn mở Odoo. 
+Platform ERP được áp dụng vào học phần Thực tập doanh nghiệp dựa trên mã nguồn mở Odoo.  
+Đặc biệt, sinh viên triển khai chủ đề **Quản lý Homestay** (Homestay Management) nhằm xây dựng hệ thống quản lý đặt phòng, khách hàng, thanh toán và dịch vụ hỗ trợ vận hành Homestay.
 
 ## 🔧 2. Các công nghệ được sử dụng
 <div align="center">
 
 ### Hệ điều hành
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
+[![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)](https://www.apple.com/macos)
+
+### Công cụ phát triển
+[![Visual Studio Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](https://code.visualstudio.com/)
+[![MySQL Workbench](https://img.shields.io/badge/MySQL%20Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://dev.mysql.com/downloads/workbench/)
+[![XAMPP](https://img.shields.io/badge/XAMPP-F37623?style=for-the-badge&logo=xampp&logoColor=white)](https://www.apachefriends.org/)
+
 ### Công nghệ chính
 [![Odoo](https://img.shields.io/badge/Odoo-714B67?style=for-the-badge&logo=odoo&logoColor=white)](https://www.odoo.com/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![XML](https://img.shields.io/badge/XML-FF6600?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.w3.org/XML/)
+
 ### Cơ sở dữ liệu
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 </div>
 
 ## 🚀 3. Các project đã thực hiện dựa trên Platform
 
-Một số project sinh viên đã thực hiện:
-- #### [Khoá 15](./docs/projects/K15/README.md)
-- #### [Khoá 16]() (Coming soon)
+
 ## ⚙️ 4. Cài đặt
 
 ### 4.1. Cài đặt công cụ, môi trường và các thư viện cần thiết
 
 #### 4.1.1. Tải project.
-```
-git clone https://gitlab.com/anhlta/odoo-fitdnu.git
-```
-#### 4.1.2. Cài đặt các thư viện cần thiết
-Người sử dụng thực thi các lệnh sau đề cài đặt các thư viện cần thiết
 
-```
-sudo apt-get install libxml2-dev libxslt-dev libldap2-dev libsasl2-dev libssl-dev python3.10-distutils python3.10-dev build-essential libssl-dev libffi-dev zlib1g-dev python3.10-venv libpq-dev
-```
-#### 4.1.3. Khởi tạo môi trường ảo.
-- Khởi tạo môi trường ảo
-```
-python3.10 -m venv ./venv
-```
-- Thay đổi trình thông dịch sang môi trường ảo
-```
-source venv/bin/activate
-```
-- Chạy requirements.txt để cài đặt tiếp các thư viện được yêu cầu
-```
-pip3 install -r requirements.txt
-```
-### 4.2. Setup database
-
-Khởi tạo database trên docker bằng việc thực thi file dockercompose.yml.
-```
-sudo docker-compose up -d
-```
-### 4.3. Setup tham số chạy cho hệ thống
-Tạo tệp **odoo.conf** có nội dung như sau:
-```
-[options]
-addons_path = addons
-db_host = localhost
-db_password = odoo
-db_user = odoo
-db_port = 5431
-xmlrpc_port = 8069
-```
-Có thể kế thừa từ file **odoo.conf.template**
 ### 4.4. Chạy hệ thống và cài đặt các ứng dụng cần thiết
 Lệnh chạy
 ```
