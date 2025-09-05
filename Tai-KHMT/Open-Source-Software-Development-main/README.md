@@ -20,7 +20,7 @@
 </div>
 
 ## 📖 1. Giới thiệu
-Hệ thống quản lý Homestay được phát triển bằng Python và sử dụng MySQL làm cơ sở dữ liệu, nhằm hỗ trợ chủ Homestay trong việc quản lý đặt phòng, khách hàng, thanh toán và các dịch vụ đi kèm. Giải pháp này giúp tự động hóa quy trình, giảm thiểu sai sót so với quản lý thủ công, đồng thời cung cấp báo cáo doanh thu – chi phí nhanh chóng và chính xác, góp phần nâng cao hiệu quả vận hành và trải nghiệm khách hàng.
+Hệ thống quản lý Homestay được phát triển bằng PHP và sử dụng MySQL làm cơ sở dữ liệu, nhằm hỗ trợ chủ Homestay trong việc quản lý đặt phòng, khách hàng, thanh toán và các dịch vụ đi kèm. Giải pháp này giúp tự động hóa quy trình, giảm thiểu sai sót so với quản lý thủ công, đồng thời cung cấp báo cáo doanh thu – chi phí nhanh chóng và chính xác, góp phần nâng cao hiệu quả vận hành và trải nghiệm khách hàng.
 
 ### Tính năng chính:
 - 👥 **Quản lý khách hàng**: Thêm, sửa, xóa thông tin khách hàng
